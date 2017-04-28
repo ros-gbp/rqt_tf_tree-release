@@ -1,0 +1,12 @@
+Source: ros-jade-rqt-tf-tree
+Section: misc
+Priority: extra
+Maintainer: Aaron Blasdel <ablasdel@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python-mock, ros-jade-catkin
+Homepage: http://wiki.ros.org/rqt_tf_tree
+Standards-Version: 3.9.2
+
+Package: ros-jade-rqt-tf-tree
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-rospkg, ros-jade-geometry-msgs, ros-jade-python-qt-binding (>= 0.2.19), ros-jade-qt-dotgraph, ros-jade-rospy, ros-jade-rqt-graph, ros-jade-rqt-gui, ros-jade-rqt-gui-py, ros-jade-tf2, ros-jade-tf2-msgs, ros-jade-tf2-ros
+Description: rqt_tf_tree provides a GUI plugin for visualizing the ROS TF frame tree.
