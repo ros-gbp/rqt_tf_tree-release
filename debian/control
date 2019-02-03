@@ -1,0 +1,12 @@
+Source: ros-kinetic-rqt-tf-tree
+Section: misc
+Priority: extra
+Maintainer: Isaac I.Y. Saito <gm130s@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), python-mock, ros-kinetic-catkin
+Homepage: http://wiki.ros.org/rqt_tf_tree
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-rqt-tf-tree
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-rospkg, ros-kinetic-geometry-msgs, ros-kinetic-python-qt-binding (>= 0.2.19), ros-kinetic-qt-dotgraph, ros-kinetic-rospy, ros-kinetic-rqt-graph, ros-kinetic-rqt-gui, ros-kinetic-rqt-gui-py, ros-kinetic-tf2, ros-kinetic-tf2-msgs, ros-kinetic-tf2-ros
+Description: rqt_tf_tree provides a GUI plugin for visualizing the ROS TF frame tree.
