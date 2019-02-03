@@ -1,3 +1,26 @@
+## rqt_tf_tree (kinetic) - 0.6.0-0
+
+The packages in the `rqt_tf_tree` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release --rosdistro kinetic --track kinetic rqt_tf_tree` on `Sun, 03 Feb 2019 14:52:34 -0000`
+
+The `rqt_tf_tree` package was released.
+
+Version of package(s) in repository `rqt_tf_tree`:
+
+- upstream repository: https://github.com/ros-visualization/rqt_tf_tree.git
+- release repository: https://github.com/ros-gbp/rqt_tf_tree-release.git
+- rosdistro version: `0.5.8-0`
+- old version: `0.5.8-0`
+- new version: `0.6.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.7.2`
+- catkin_pkg version: `0.4.10`
+- rosdep version: `0.15.0`
+- rosdistro version: `0.7.2`
+- vcstools version: `0.1.40`
+
+
 ## rqt_tf_tree (indigo) - 0.6.0-0
 
 The packages in the `rqt_tf_tree` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --rosdistro indigo --track indigo rqt_tf_tree` on `Sun, 03 Feb 2019 14:47:26 -0000`
