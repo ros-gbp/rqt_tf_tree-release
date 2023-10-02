@@ -1,3 +1,26 @@
+## rqt_tf_tree (noetic) - 0.6.4-1
+
+The packages in the `rqt_tf_tree` repository were released into the `noetic` distro by running `/usr/bin/bloom-release -r noetic -t noetic rqt_tf_tree --edit` on `Mon, 02 Oct 2023 01:31:29 -0000`
+
+The `rqt_tf_tree` package was released.
+
+Version of package(s) in repository `rqt_tf_tree`:
+
+- upstream repository: https://github.com/ros-visualization/rqt_tf_tree.git
+- release repository: https://github.com/ros-gbp/rqt_tf_tree-release.git
+- rosdistro version: `0.6.3-1`
+- old version: `0.6.3-1`
+- new version: `0.6.4-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.2`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## rqt_tf_tree (noetic) - 0.6.3-1
 
 The packages in the `rqt_tf_tree` repository were released into the `noetic` distro by running `/usr/bin/bloom-release -r noetic -t noetic rqt_tf_tree` on `Tue, 29 Mar 2022 00:30:55 -0000`
