@@ -1,0 +1,272 @@
+ros-noetic-rqt-tf-tree (0.6.4-1focal) focal; urgency=high
+
+  * Fix dot save according to the PyQt5 (#28 <https://github.com/ros-visualization/rqt_tf_tree/issues/28>)
+  * Import setup from setuptools instead of distutils.core (#45 <https://github.com/ros-visualization/rqt_tf_tree/issues/45>)
+  * Add xml-model
+  * Add LICENSE file
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Sun, 01 Oct 2023 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.6.3-1focal) focal; urgency=high
+
+  * Added new maintainers
+  * Use yaml.safe_load instead of yaml.load fixing (#29 <https://github.com/ros-visualization/rqt_tf_tree/issues/29>)
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Mon, 28 Mar 2022 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.6.2-1focal) focal; urgency=high
+
+  * fix shebang line for Python 3 (#21 <https://github.com/ros-visualization/rqt_tf_tree/issues/21>)
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Sun, 13 Sep 2020 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.6.1-1focal) focal; urgency=high
+
+  * bump CMake minimum version to avoid CMP0048 warning
+  * remove unused dependencies (#15 <https://github.com/ros-visualization/rqt_tf_tree/issues/15>)
+  * minor cleanup (#12 <https://github.com/ros-visualization/rqt_tf_tree/issues/12>)
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Mon, 16 Mar 2020 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.6.0-1focal) focal; urgency=high
+
+  * [capability] add button for clearing the TF buffer #9 <https://github.com/ros-visualization/rqt_tf_tree/issues/9> from christian-rauch/clear_tf_buffer
+  * [maintenance] Integrate an existing testcase upon build by Catkin. #5 <https://github.com/ros-visualization/rqt_tf_tree/issues/5>
+  * Contributors: Christian Rauch, Isaac I.Y. Saito, Peter Han
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Sat, 02 Feb 2019 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.5.8-1focal) focal; urgency=high
+
+  * [fix] child_frame_id format #6 <https://github.com/ros-visualization/rqt_tf_tree/issues/6>
+  * Update maintainer
+  * Contributors: Dirk Thomas, Isaac I.Y. Saito, Peter Han
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Sun, 23 Jul 2017 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.5.7-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Wed, 26 Apr 2017 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.5.6-1focal) focal; urgency=high
+
+  * use Python 3 compatible syntax (#121 <https://github.com/ros-visualization/rqt_robot_plugins/pull/121>)
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Mon, 23 Jan 2017 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.5.5-1focal) focal; urgency=high
+
+  * fix tf parent to always convert to string (#113 <https://github.com/ros-visualization/rqt_robot_plugins/pull/113>)
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Tue, 01 Nov 2016 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.5.4-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Sun, 18 Sep 2016 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.5.3-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Sun, 15 May 2016 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.5.2-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Thu, 28 Apr 2016 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.5.1-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Wed, 27 Apr 2016 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.5.0-1focal) focal; urgency=high
+
+  * Support Qt 5 (in Kinetic and higher) as well as Qt 4 (in Jade and earlier) (#101 <https://github.com/ros-visualization/rqt_robot_plugins/pull/101>)
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Tue, 26 Apr 2016 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.4.3-1focal) focal; urgency=high
+
+  * use proper icon for images
+  * Contributors: Vincent Rabaud
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Mon, 07 Mar 2016 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.4.2-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Thu, 23 Jul 2015 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.4.1-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Wed, 29 Apr 2015 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.4.0-1focal) focal; urgency=high
+
+  * update script to use full plugin name
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Tue, 04 Nov 2014 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.3.7-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Sun, 17 Aug 2014 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.3.6-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Thu, 10 Jul 2014 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.3.5-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Sun, 01 Jun 2014 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.3.4-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Tue, 06 May 2014 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.3.3-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Mon, 27 Jan 2014 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.3.2-1focal) focal; urgency=high
+
+  * add groups for rqt plugins (ros-visualization/rqt_common_plugins#167 <https://github.com/ros-visualization/rqt_common_plugins/issues/167>)
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Tue, 07 Jan 2014 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.3.1-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Tue, 08 Oct 2013 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.3.0-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Tue, 27 Aug 2013 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.2.16-1focal) focal; urgency=high
+
+  * First public release into Hydro
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Mon, 08 Jul 2013 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.2.15-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Wed, 24 Apr 2013 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.2.14-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Thu, 11 Apr 2013 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.2.13-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Mon, 08 Apr 2013 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.2.12-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Sat, 06 Apr 2013 09:22:00 -0000
+
+ros-noetic-rqt-tf-tree (0.2.11-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Sat, 06 Apr 2013 09:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.2.10-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Wed, 03 Apr 2013 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.2.9-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Wed, 06 Mar 2013 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.2.8-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Thu, 10 Jan 2013 15:00:00 -0000
+
+ros-noetic-rqt-tf-tree (0.2.7-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Sun, 23 Dec 2012 06:58:00 -0000
+
+ros-noetic-rqt-tf-tree (0.2.6-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Sat, 22 Dec 2012 16:57:00 -0000
+
+ros-noetic-rqt-tf-tree (0.2.5-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Fri, 21 Dec 2012 10:11:00 -0000
+
+ros-noetic-rqt-tf-tree (0.2.4-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Thu, 20 Dec 2012 16:13:00 -0000
+
+ros-noetic-rqt-tf-tree (0.2.3-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Thu, 20 Dec 2012 15:24:00 -0000
+
+ros-noetic-rqt-tf-tree (0.2.2-1focal) focal; urgency=high
+
+  * Disable dependency to tf2 (that's not building) for now
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Thu, 20 Dec 2012 09:29:00 -0000
+
+ros-noetic-rqt-tf-tree (0.2.1-1focal) focal; urgency=high
+
+
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Thu, 20 Dec 2012 08:47:00 -0000
+
+ros-noetic-rqt-tf-tree (0.2.0-1focal) focal; urgency=high
+
+  * rqt_tf_tree plugin disabled until tf2 is catkinized
+  * catkinizing
+  * first public release for Groovy
+
+ -- Isaac I.Y. Saito <gm130s@gmail.com>  Thu, 20 Dec 2012 08:39:00 -0000
+
+
